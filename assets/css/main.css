@@ -7,7 +7,7 @@
 
 :root {
     /*========== Colors ==========*/
-    --first-color: #c0964c;
+    --first-color: #cb9734;
     --button-color: hsl(0, 0%, 17%);
     --button-color-alt: hsl(0, 0%, 21%);
     --gradient-color: linear-gradient(90deg, hsl(23, 4%, 28%) 0%, hsl(23, 4%, 8%) 100%);
@@ -180,11 +180,15 @@ img {
 .home {
     height: 100vh;
     padding: 3.5rem 0 2rem;
+    /* background: linear-gradient(rgba(4, 9, 30, 0.8), rgba(4, 9, 30, 0.09)), url(../img/new1.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; */
 }
 
 .home2 {
     /* background-attachment: fixed; */
-    background-image: linear-gradient(rgba(4, 9, 30, 0.8), rgb(4 9 30 / 40%)), url(../img/pp1.jpeg);
+    background-image: linear-gradient(rgba(4, 9, 30, 0.8), rgb(4 9 30 / 40%)), url(../img/new1.jpeg);
     background-size: cover;
     background-position: center top;
     background-repeat: no-repeat;
@@ -1022,7 +1026,7 @@ img {
 /*=============== calcindex ===============*/
 
 .calcsection {
-    background: linear-gradient(rgb(0 0 0 / 89%), rgb(0 0 0 / 92%)), url(../img/logo2.png) no-repeat;
+    background: linear-gradient(rgb(0 0 0 / 72%), rgb(0 0 0 / 46%)), url(../img/LOGO.png) no-repeat;
     background-size: contain;
     background-position: center;
     background-attachment: fixed;
